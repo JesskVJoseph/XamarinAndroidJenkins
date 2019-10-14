@@ -1,0 +1,56 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/deepenp/Documents/Projects/testJenkinsAndroid/testJenkinsAndroid/testJenkinsAndroid.csproj": {}
+  },
+  "projects": {
+    "/Users/deepenp/Documents/Projects/testJenkinsAndroid/testJenkinsAndroid/testJenkinsAndroid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/deepenp/Documents/Projects/testJenkinsAndroid/testJenkinsAndroid/testJenkinsAndroid.csproj",
+        "projectName": "testJenkinsAndroid",
+        "projectPath": "/Users/deepenp/Documents/Projects/testJenkinsAndroid/testJenkinsAndroid/testJenkinsAndroid.csproj",
+        "packagesPath": "/Users/deepenp/.nuget/packages/",
+        "outputPath": "/Users/deepenp/Documents/Projects/testJenkinsAndroid/testJenkinsAndroid/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/deepenp/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid71"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid71": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid71": {
+          "dependencies": {
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.CustomTabs": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
